@@ -1,0 +1,80 @@
+/* General styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 10px;
+}
+
+h1, h2 {
+    color: #004d40;
+    text-align: center;
+}
+
+h3 {
+    color: #004d40;
+    margin-bottom: 5px;
+}
+
+p, strong {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+/* Slide styling */
+.slide {
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Mobile responsiveness */
+@media only screen and (max-width: 480px) {
+    body {
+        padding: 8px;
+    }
+
+    h1, h2 {
+        font-size: 1.4rem;
+    }
+
+    h3 {
+        font-size: 1.2rem;
+    }
+
+    p {
+        font-size: 0.9rem;
+    }
+}
+
+/* Specific for iPhone 4 */
+@media only screen and (max-width: 320px) {
+    body {
+        padding: 5px;
+    }
+
+    h1, h2 {
+        font-size: 1.2rem;
+    }
+
+    h3 {
+        font-size: 1rem;
+    }
+
+    p, strong {
+        font-size: 0.85rem;
+    }
+    
+    .slide {
+        padding: 8px;
+    }
+}
