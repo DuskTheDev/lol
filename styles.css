@@ -37,6 +37,19 @@ p, strong {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
+
+/* Slide change styling */
+.slide-change {
+    display: inline-block;
+    background-color: #e8f5e9; /* Light green background */
+    color: #004d40; /* Dark green text */
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin: 10px 0;
+    text-align: center;
+}
+
 /* Mobile responsiveness */
 @media only screen and (max-width: 480px) {
     body {
